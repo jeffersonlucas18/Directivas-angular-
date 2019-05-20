@@ -1,0 +1,17 @@
+<!--<section>-->
+<!--  <article>-->
+<!--<h1>If</h1>-->
+
+<!--<div *ngIf="cursos.length > 0">Lista de Cursos </div>-->
+<!--    <div *ngIf="cursos.length == 0">Lista de Cursos Vazia</div>-->
+<!--  </article>-->
+<!--</section>-->
+
+<section>
+  <article>
+    <h1>If</h1>
+    <div *ngIf="mostrarCursos" >Lista de Cursos </div>
+    <div *ngIf="!mostrarCursos">Lista de Cursos Vazia</div>
+    <button (click)="onMostrar()">Aperte aqui</button>
+  </article>
+</section>
